@@ -21,3 +21,7 @@ its own, so a show is never interrupted, and your playlists, settings and librar
 
 The Companion module (`iomusic-player-X.Y.Z.tgz`) is attached to releases as well. In Companion:
 **Modules → Import module package**, then add an **IO Music** connection (port 7700).
+
+**On a Mac:** Safari unpacks `.tgz` downloads into a `.tar` that Companion rejects. Download
+`iomusic-player-X.Y.Z-mac.zip` instead: Safari unzips it and leaves the `.tgz` ready to import.
+(Or, in Terminal, re-pack a `.tar` with `gzip -c iomusic-player-X.Y.Z.tar > iomusic-player-X.Y.Z.tgz`.)
