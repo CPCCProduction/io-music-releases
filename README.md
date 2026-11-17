@@ -22,11 +22,14 @@ its own, so a show is never interrupted, and your playlists, settings and librar
 The Companion module (`iomusic-player-X.Y.Z.tgz`) is attached to releases as well. In Companion:
 **Modules → Import module package**, then add an **IO Music** connection (port 7700).
 
-**On a Mac:** Safari turns `.tgz` downloads into a `.tar` that Companion can't import. Download
-the module with Terminal instead (replace X.Y.Z with the version shown on the release):
+> [!IMPORTANT]
+> **On a Mac, download the Companion module with Google Chrome, not Safari.**
+> Safari automatically turns the `.tgz` into a `.tar`, and Companion can't import a `.tar`.
+
+No Chrome? Download it with Terminal instead (replace X.Y.Z with the version shown on the release):
 
 ```
 curl -L -o ~/Downloads/iomusic-player-X.Y.Z.tgz https://github.com/CPCCProduction/io-music-releases/releases/latest/download/iomusic-player-X.Y.Z.tgz
 ```
 
-Or turn off Safari → Settings → General → "Open safe files after downloading", or use Chrome.
+Or turn off Safari → Settings → General → "Open safe files after downloading" before downloading.
